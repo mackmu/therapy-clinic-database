@@ -2,11 +2,11 @@
 
 A relational database schema and transactional dataset designed to manage logistics, employee specializations, and departmental structures for a multi-facility pediatric therapy clinic network.
 
-## 🏗️ Core Architecture & ERD
+## Core Architecture & ERD
 
 The system is designed around strict healthcare data integrity rules, handling health systems, individual clinic locations, multi-tier employee rosters, and clinical certifications.
 
-### 🔑 Database Entities & Key Relationships
+### Database Entities & Key Relationships
 
 * **HealthSystem & Clinic:** A **One-to-Many** relationship (`HealthSystemId`) mapping parent healthcare corporate structures to individual clinic facilities.
 * **Clinic & ClinicDepartment:** Houses internal operational divisions (e.g., Physical Therapy, Occupational Therapy, Speech-Language Pathology).
@@ -15,7 +15,7 @@ The system is designed around strict healthcare data integrity rules, handling h
 
 ---
 
-## 🚀 Getting Started / Deployment
+## Getting Started / Deployment
 
 To deploy this database locally and populate it with baseline transactional and configuration data:
 
