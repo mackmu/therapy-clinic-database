@@ -24,3 +24,5 @@ To deploy this database locally and populate it with baseline transactional and 
 3. Create a new blank database:
    ```sql
    CREATE DATABASE PediatricTherapyClinic;
+4. Open the `script.sql` file from this repository in a new query window (`File` ➔ `Open` ➔ `File...`).
+5. Ensure your target database dropdown in the top toolbar is set to `PediatricTherapyClinic`, then click **Execute (F5)** to build the schema and seed the data.
